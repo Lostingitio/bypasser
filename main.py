@@ -14,13 +14,13 @@ import re
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "5688017440:AAFlaLmLJ_ZCXYV_SSeyeAeQ3RdvItaRHco")
+api_hash = os.environ.get("HASH", "3eba5d471162181b8a3f7f5c0a23c307") 
+api_id = os.environ.get("ID", "4682685")
 OWNER_ID = os.environ.get("OWNER_ID", "945284066")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "FLIGHER")
-PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-1002037185745")
+PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-4062938711")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
 UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", "redirect_to_lion_stage"))
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  

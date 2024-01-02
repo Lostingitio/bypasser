@@ -69,7 +69,7 @@ To see the list of supported sites see [texts.py](https://github.com/bipinkrish/
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?templatehttps://github.com/Lostingitio/Link-Bypasser-Bot">
+<a href="https://heroku.com/deploy?templatehttps://github.com/Lostingitio/bypasser">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>

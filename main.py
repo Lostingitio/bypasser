@@ -15,8 +15,8 @@ import re
 
 # bot
 bot_token = os.environ.get("TOKEN", "5688017440:AAFlaLmLJ_ZCXYV_SSeyeAeQ3RdvItaRHco")
-api_hash = os.environ.get("HASH", "3eba5d471162181b8a3f7f5c0a23c307") 
-api_id = os.environ.get("ID", "4682685")
+api_hash = os.environ.get("HASH", "c000fdc4e8f7f9f3b9bb4edd53447b13") 
+api_id = os.environ.get("ID", "23214543")
 OWNER_ID = os.environ.get("OWNER_ID", "945284066")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "FLIGHER")
@@ -111,7 +111,7 @@ async def send_start(client: pyrogram.client.Client, message: pyrogram.types.mes
                     disable_web_page_preview=True)
                 return
     await app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Link Bypasser Bot, just send me any supported links and i will you get you results.\nCheckout /help to Read More__",
-                           reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🌐 Source Code 🌐", url="https://github.com/bipinkrish/Link-Bypasser-Bot")]]), reply_to_message_id=message.id)
+                           reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🌐 Source Code 🌐", url="https://github.com")]]), reply_to_message_id=message.id)
 
 
 # help command
